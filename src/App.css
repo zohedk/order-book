@@ -1,0 +1,21 @@
+.main::-webkit-scrollbar {
+  display: none;
+}
+.clippy-bg {
+  clip-path: polygon(
+    49% 42%,
+    91% 46%,
+    68% 53%,
+    89% 54%,
+    85% 65%,
+    7% 64%,
+    23% 57%,
+    6% 50%
+  );
+}
+
+.bg-shadow {
+  -webkit-box-shadow: -1px 0px 21px -9px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -1px 0px 21px -9px rgba(0, 0, 0, 0.42);
+  box-shadow: -1px 0px 21px -9px rgba(0, 0, 0, 0.42);
+}
